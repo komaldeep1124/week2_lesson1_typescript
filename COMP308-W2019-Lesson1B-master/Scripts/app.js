@@ -1,13 +1,11 @@
-"use strict";
-// self-executing anonymous function
 // IIFE -- Immediately Invoked Function Expression
-(function(){
-    let myFunctionalVariable = 0;
-
+(function () {
     function Start() {
-        let myLocalVariable = 0;
-        console.log(`App Started...${myFunctionalVariable}`);
+        var student;
+        student = new objects.Student(21, "komaldeep", "300926834");
+        student.saysHello();
+        student.studies();
     }
-
     window.addEventListener("load", Start);
 })();
+//# sourceMappingURL=app.js.map
