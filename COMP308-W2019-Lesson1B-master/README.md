@@ -1,3 +1,3 @@
-# COMP308-W2019-Lesson2
+# COMP308-Lesson2
 
-Demo Project for typescript
+Example for typescript
